@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+html{
+    height: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient( to bottom, #5f2c82, #2D6462);
+    }
+
+    main {
+        height: 280px;
+        width: 80vw;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    }
+
+    main section#foto {
+        border-radius: 20px 0px 0 20px;;
+        background-position: bottom center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 30%;
+        height: 100%;
+        float: left;
+    }
+
+    main section#caixa-login {
+        width: 54vw;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        margin: 10px auto;
+    }
+
+    form div.caixa {
+        width: 54vw;
+    }
+
+   .caixa .input {
+    width: 49vw;
+   }
+
+    button, .botao {
+        width: 54vw;
+    }
+
+    }
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient( to bottom, #5f2c82, #204948);
+    }
+
+    main {
+        height: 320px;
+        width: 60vw;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    }
+
+    main section#foto {
+        border-radius: 0 20px 20px 0;
+        background-position: bottom center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 30%;
+        height: 100%;
+        float: right;
+    }
+
+    main section#caixa-login {
+        width: 40vw;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        margin: 34px auto;
+    }
+    form div.caixa {
+        width: 40vw;
+    }
+
+    .caixa .input {
+        width: 36vw;
+       }
+
+    button, .botao {
+        width: 40vw;
+    }
+}
